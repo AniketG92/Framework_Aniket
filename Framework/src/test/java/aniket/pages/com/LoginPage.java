@@ -25,6 +25,9 @@ public class LoginPage {
 	@CacheLookup
 	@FindBy(xpath="//*[@id=\"ui\"]/div/div/form/div/div[3]") public static WebElement Loginbutton;
 	
+	@CacheLookup
+	@FindBy(xpath="//*[@id=\"main-nav\"]/a[1]/span") public static WebElement HomeButton;
+	
 	public void logintocrm(String appuname,String passapp)
 	{
 		try {
@@ -39,7 +42,20 @@ public class LoginPage {
 		username.sendKeys(appuname);
 		pass.sendKeys(passapp);
 		Loginbutton.click();
-		
+				
+	}
+	
+	public String validateLogin()
+	{
+		HomeButton.click();
+		if(driver.getCurrentUrl()=="https://ui.freecrm.com/home")
+		{
+			return "SUCCESS";
+		}
+		else
+		{
+			return "FAILURE";
+		}
 	}
 	
 }
