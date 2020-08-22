@@ -48,7 +48,7 @@ public class LoginPage {
 	public String validateLogin()
 	{
 		HomeButton.click();
-		if(driver.getCurrentUrl()=="https://ui.freecrm.com/home")
+		if(driver.getCurrentUrl().equals("https://ui.freecrm.com/home"))
 		{
 			return "SUCCESS";
 		}

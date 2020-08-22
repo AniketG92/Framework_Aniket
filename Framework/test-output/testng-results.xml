@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-07T15:30:11Z" name="Suite" finished-at="2020-08-07T15:30:37Z" duration-ms="26067">
+  <suite started-at="2020-08-08T06:58:52Z" name="Suite" finished-at="2020-08-08T06:59:17Z" duration-ms="24960">
     <groups>
     </groups>
-    <test started-at="2020-08-07T15:30:11Z" name="Test" finished-at="2020-08-07T15:30:37Z" duration-ms="26067">
+    <test started-at="2020-08-08T06:58:52Z" name="Test" finished-at="2020-08-08T06:59:17Z" duration-ms="24960">
       <class name="aniket.testcases.com.LoginCRMTest">
-        <test-method is-config="true" signature="SetUpSuite()[pri:0, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-07T15:30:10Z" name="SetUpSuite" finished-at="2020-08-07T15:30:11Z" duration-ms="593" status="PASS">
+        <test-method is-config="true" signature="SetUpSuite()[pri:0, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-08T06:58:51Z" name="SetUpSuite" finished-at="2020-08-08T06:58:52Z" duration-ms="767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-07T15:30:11Z" name="setup" finished-at="2020-08-07T15:30:27Z" duration-ms="15587" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-08T06:58:52Z" name="setup" finished-at="2020-08-08T06:59:06Z" duration-ms="14602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validatelogin()[pri:1, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-07T15:30:27Z" name="validatelogin" finished-at="2020-08-07T15:30:31Z" duration-ms="4398" status="PASS">
+        <test-method signature="validatelogin()[pri:1, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-08T06:59:06Z" name="validatelogin" finished-at="2020-08-08T06:59:11Z" duration-ms="4377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogin -->
-        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-07T15:30:31Z" name="teardownMethod" finished-at="2020-08-07T15:30:32Z" duration-ms="599" status="PASS">
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-08T06:59:11Z" name="teardownMethod" finished-at="2020-08-08T06:59:12Z" duration-ms="662" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method signature="validateloginsuccess()[pri:2, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-07T15:30:32Z" name="validateloginsuccess" finished-at="2020-08-07T15:30:33Z" duration-ms="958" status="PASS">
+        <test-method signature="validateloginsuccess()[pri:2, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-08T06:59:12Z" name="validateloginsuccess" finished-at="2020-08-08T06:59:12Z" duration-ms="716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateloginsuccess -->
-        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-07T15:30:33Z" name="teardownMethod" finished-at="2020-08-07T15:30:33Z" duration-ms="421" status="PASS">
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-08T06:59:12Z" name="teardownMethod" finished-at="2020-08-08T06:59:13Z" duration-ms="486" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-07T15:30:33Z" name="teardown" finished-at="2020-08-07T15:30:37Z" duration-ms="4084" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:aniket.testcases.com.LoginCRMTest@73e9cf30]" started-at="2020-08-08T06:59:13Z" name="teardown" finished-at="2020-08-08T06:59:17Z" duration-ms="4090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
